@@ -26,6 +26,13 @@ body {
 	flex-direction: column;
 	background-color: $Very-Dark-Blue;
 }
+.card {
+	width: 340px;
+	margin: 0 15px;
+	background-color: $Dark-Blue;
+	border-radius: 15px;
+	padding: 1.5em;
+}
 
 .circle {
 	width: 45px;
@@ -37,55 +44,91 @@ body {
 	padding: 0.7em;
 	font-size: 1em;
 	background-color: hsl(213, 18%, 22%);
-
+}
+.title {
+	color: $White;
+	font-size: 2.5rem;
+	padding: 0.5em 0;
+	font-weight: 700;
+}
+.info {
+	padding-bottom: 2em;
+	color: $Medium-Grey;
 }
 
-button{
-    border: none;
+button {
+	border: none;
 }
 
 .rating-card {
-	width: 340px;
-	margin: 0 15px;
-	background-color: $Dark-Blue;
-	border-radius: 15px;
-    padding: 1.5em;
-    
+	display: none;
+
 	&__star {
-        img {
-           padding: 0.2em;
+		img {
+			padding: 0.2em;
 		}
 	}
 
-	&__text {
-		&-title {
-			color: $White;
-			font-size: 2.5rem;
-			padding: 0.5em 0;
-		}
-		&-info {
-			padding-bottom: 2em;
-			color: $Medium-Grey;
-		}
-	}
+	// &__text {
+	// 	&-title {
+	// 	}
+	// 	&-info {
+	// 	}
+	// }
 
 	&__rate {
-        display: flex;
-        justify-content: space-between;
-        &-button{
-font-size: 1.3rem;
-            color:$Light-Grey;
-        }
+		display: flex;
+		justify-content: space-between;
+
+		&-button {
+			font-size: 1.3rem;
+			color: $Light-Grey;
+			font-weight: 700;
+
+			&:hover {
+				background-color: $Orange;
+				color: $White;
+			}
+		}
 	}
 }
 
-.button{
-    width: 100%;
-    background-color:$Orange;
-    color: $White;
-    text-transform: uppercase;
-    padding: 1em;
-    border-radius: 20px;
-    margin-top: 2em;
-    letter-spacing: 0.1em;
+.button {
+	width: 100%;
+	background-color: $Orange;
+	color: $White;
+	text-transform: uppercase;
+	padding: 1em;
+	border-radius: 20px;
+	margin-top: 2em;
+	letter-spacing: 0.2em;
+
+	&:hover {
+		background-color: $White;
+		color: $Orange;
+	}
+}
+
+.thank-you {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	// display: none;
+    &__img{
+        padding: 0.8em 0 1.5em 0;
+    }
+
+	&__selection {
+		color: $Orange;
+		padding: 0.5em 0.6em;
+        vertical-align: middle;
+        font-size: 1.6rem;
+		background-color: hsl(213, 18%, 22%);
+        border-radius: 20px;
+	}
+
+    &__text-info{
+        text-align: center;
+    }
 }

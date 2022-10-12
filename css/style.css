@@ -31,6 +31,14 @@ body {
   background-color: #121417;
 }
 
+.card {
+  width: 340px;
+  margin: 0 15px;
+  background-color: #252d37;
+  border-radius: 15px;
+  padding: 1.5em;
+}
+
 .circle {
   width: 45px;
   height: 45px;
@@ -43,31 +51,28 @@ body {
   background-color: #2e3742;
 }
 
+.title {
+  color: white;
+  font-size: 2.5rem;
+  padding: 0.5em 0;
+  font-weight: 700;
+}
+
+.info {
+  padding-bottom: 2em;
+  color: #7c8798;
+}
+
 button {
   border: none;
 }
 
 .rating-card {
-  width: 340px;
-  margin: 0 15px;
-  background-color: #252d37;
-  border-radius: 15px;
-  padding: 1.5em;
+  display: none;
 }
 
 .rating-card__star img {
   padding: 0.2em;
-}
-
-.rating-card__text-title {
-  color: white;
-  font-size: 2.5rem;
-  padding: 0.5em 0;
-}
-
-.rating-card__text-info {
-  padding-bottom: 2em;
-  color: #7c8798;
 }
 
 .rating-card__rate {
@@ -82,6 +87,12 @@ button {
 .rating-card__rate-button {
   font-size: 1.3rem;
   color: #959eac;
+  font-weight: 700;
+}
+
+.rating-card__rate-button:hover {
+  background-color: #fb7413;
+  color: white;
 }
 
 .button {
@@ -92,6 +103,44 @@ button {
   padding: 1em;
   border-radius: 20px;
   margin-top: 2em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
+}
+
+.button:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+.thank-you {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.thank-you__img {
+  padding: 0.8em 0 1.5em 0;
+}
+
+.thank-you__selection {
+  color: #fb7413;
+  padding: 0.5em 0.6em;
+  vertical-align: middle;
+  font-size: 1.6rem;
+  background-color: #2e3742;
+  border-radius: 20px;
+}
+
+.thank-you__text-info {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
