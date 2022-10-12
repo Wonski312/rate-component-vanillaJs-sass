@@ -128,7 +128,12 @@ button {
         border-radius: 20px;
 	}
 
-    &__text-info{
-        text-align: center;
+    &__text{
+        &-title{
+            margin-top: 0.8em;
+        }
+        &-info{
+            text-align: center;
+        }
     }
 }

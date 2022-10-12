@@ -140,6 +140,10 @@ button {
   border-radius: 20px;
 }
 
+.thank-you__text-title {
+  margin-top: 0.8em;
+}
+
 .thank-you__text-info {
   text-align: center;
 }
