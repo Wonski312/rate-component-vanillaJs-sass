@@ -61,7 +61,7 @@ button {
 }
 
 .rating-card {
-	display: none;
+	display: block;
 
 	&__star {
 		img {
@@ -110,11 +110,11 @@ button {
 }
 
 .thank-you {
-	display: flex;
+	display: none;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	// display: none;
+
     &__img{
         padding: 0.8em 0 1.5em 0;
     }
@@ -136,4 +136,9 @@ button {
             text-align: center;
         }
     }
+}
+
+.selected{
+    background-color: $Orange;
+    color:$White;
 }

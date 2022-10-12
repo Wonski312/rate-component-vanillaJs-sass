@@ -68,7 +68,7 @@ button {
 }
 
 .rating-card {
-  display: none;
+  display: block;
 }
 
 .rating-card__star img {
@@ -112,9 +112,7 @@ button {
 }
 
 .thank-you {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -146,5 +144,10 @@ button {
 
 .thank-you__text-info {
   text-align: center;
+}
+
+.selected {
+  background-color: #fb7413;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
