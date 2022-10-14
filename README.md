@@ -11,3 +11,4 @@ Technologies Used
 --JavaScript
 --BEM
 
+Your Welcome to have a look at final result [Rateing-component](https://wonski312.github.io/rate-component-vanillaJs-sass/)
