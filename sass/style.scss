@@ -69,13 +69,6 @@ button {
 		}
 	}
 
-	// &__text {
-	// 	&-title {
-	// 	}
-	// 	&-info {
-	// 	}
-	// }
-
 	&__rate {
 		display: flex;
 		justify-content: space-between;
@@ -142,3 +135,7 @@ button {
     background-color: $Orange;
     color:$White;
 }
+.mouseOver{
+	background-color: $Medium-Grey;
+	color:$White;
+  }
